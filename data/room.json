@@ -19,6 +19,11 @@
 		    "id": "4",
 		    "name": "402",
 		    "note": "Informātikas kabinets"
+		},
+		{
+		    "id": "5",
+		    "name": "303",
+		    "note": "Fizikas kabinets"
 		}
 	]
 }
