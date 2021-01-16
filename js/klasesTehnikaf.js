@@ -5,9 +5,9 @@ async function klasesTehnikaf() {
     let telpa, tips;
     let irProjektors, irSkandas,vajagSkandas, vajagDatoru,vajagProjektoru;
     //let datoruDB =fetch('https://armandspucs.github.io/majas-darbs-1/data/datoruDB.json')
-    let roomDB = await fetch('https://andrejstehnika.amikis.repl.co/dati/telpas')
+    let roomDB = await fetch('https://andrejstehnika.amikis.repl.co/api/dati/telpas')
     let roomJson = await roomDB.json();
-    let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/dati/tehnika')
+    let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/api/dati/tehnika')
     let pcJson = await datoruDB.json();
     let kabinetuSkaits=roomJson.dati.length;   
     let garums=pcJson.dati.length;
