@@ -8,7 +8,7 @@ async function klasesTehnikaf() {
     let roomDB = await fetch('https://andrejstehnika.amikis.repl.co/static/room.json')
     let roomJson = await roomDB.json();
     let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/static/visas_tehnikas_db.json')
-    let pcJson = await datoruDB.json();
+    let pcJson = await visas_tehnikas_db.json();
     let kabinetuSkaits=roomJson.dati.length;   
     let garums=pcJson.dati.length;
     vajagSkandas=document.getElementById("skandas").checked;
