@@ -3,10 +3,10 @@ function nomainiLaukus() {
     document.getElementById("datortehnika").innerHTML = x;
     switch  (x){
         case 'dators':
-        document.getElementById("nos1").textContent = "Procesors";
-        document.getElementById("nos2").textContent = "RAM";
-        document.getElementById("nos3").textContent = "Cietais disks";
-        document.getElementById("nos4").textContent = "OS";
+        document.getElementById("nos1").textContent = "id";
+        document.getElementById("nos2").textContent = "tips";
+        document.getElementById("nos3").textContent = "inventaraNr";
+        document.getElementById("nos4").textContent = "name";
         break;
         case 'monitors':
         document.getElementById("nos1").textContent = "Ražotājs";
