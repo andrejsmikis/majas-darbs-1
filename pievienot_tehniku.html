@@ -34,7 +34,13 @@
         <br><br><hr>
         <!---->
    
-        <form method="POST" action="https://repl.it/@amikis/andrejstehnika#main.py/static/pievienot_tehniku">
+        <form method="POST",
+        headers:
+              {
+              'X-API-KEY': 'asdf',
+              'Content-Type': 'application/json'
+              },
+        action="https://repl.it/@amikis/andrejstehnika#main.py/static/pievienot_tehniku">
             <p id="datortehnika">dators</p>
             <button class="nosaukumi" for="dati1"id="nos1">id</button>
             <input class="dati" type="text" name="id" ><br>
