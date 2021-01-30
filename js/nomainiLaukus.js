@@ -3,22 +3,22 @@ function nomainiLaukus() {
     document.getElementById("datortehnika").innerHTML = x;
     switch  (x){
         case 'dators':
-        document.getElementById("nos1").textContent = "id";
-        document.getElementById("nos2").textContent = "tips";
-        document.getElementById("nos3").textContent = "inventaraNr";
-        document.getElementById("nos4").textContent = "name";
+        document.getElementById("bnos9").textContent = "procesors";
+        document.getElementById("bnos10").textContent = "ram";
+        document.getElementById("nos11").textContent = "hdd";
+        document.getElementById("nos12").textContent = "programmatūra";
         break;
         case 'monitors':
-        document.getElementById("nos1").textContent = "Ražotājs";
-        document.getElementById("nos2").textContent = "Izmērs";
-        document.getElementById("nos3").textContent = "Video ieejas";
-        document.getElementById("nos4").textContent = "Skaņa";
+        document.getElementById("nos9").textContent = "tips";
+        document.getElementById("nos10").textContent = "izmērs";
+        document.getElementById("nos11").textContent = "video ieejas";
+        document.getElementById("nos12").textContent = "skaņa";
         break;
         case 'printeris':
-        document.getElementById("nos1").textContent = "Ražotājs";
-        document.getElementById("nos2").textContent = "tips";
-        document.getElementById("nos3").textContent = "Papīra izmērs";
-        document.getElementById("nos4").textContent = "toneris";
+        document.getElementById("nos9").textContent = "tips";
+        document.getElementById("nos10").textContent = "pieslēgums";
+        document.getElementById("nos11").textContent = "papīra izmērs";
+        document.getElementById("nos12").textContent = "toneris";
         break;
     }
     }
