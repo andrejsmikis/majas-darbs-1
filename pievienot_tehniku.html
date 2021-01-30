@@ -17,10 +17,10 @@
 
         <!--Izvēlēties ievadāmo tehniku:-->
         <div class="flex">
-            <div class="col">
+            <div class="col1">
                 <label for="tehnika"> Datortehnikas veids:</label>
             </div>
-            <div class="col">
+            <div class="col1">
                 <select name="tehnika" id="tehnika" onchange="nomainiLaukus()">
                     <option value="dators">dators</option>
                     <option value="monitors">monitors</option>
@@ -31,28 +31,41 @@
         
         <!-- <button class=button id=ievads onclick="nomainiLaukus()">Izvēlies</button>
  -->        
-        <br><br><hr>
-        <!---->
-   
-        <form method="POST",
-        headers:
-              {
-              'X-API-KEY': '',
-              'Content-Type': 'application/json'
-              },
-        action="https://repl.it/@amikis/andrejstehnika#main.py/static/pievienot_tehniku">
-            <p id="datortehnika">dators</p>
-            <button class="nosaukumi" for="dati1"id="nos1">id</button>
-            <input class="dati" type="text" name="id" ><br>
-            <button class="nosaukumi" for="dati2"id="nos2">tips</button>
-            <input class="dati" type="text" name="tips" value="dators"><br>
-            <button class="nosaukumi" for="dati3"id="nos3">inventaraNr</button>
-            <input class="dati" type="text" name="inventaraNR" value="1239-540"><br>
-            <button class="nosaukumi" for="dati4"id="nos4">name</button>
-            <input class="dati" type="text" name="name"><br>    
-            <br><hr>     
-            <button class=button type="submit">Saglabāt</button> 
-        </form>
+        <hr>
+        <p id="datortehnika">dators</p>
+        <div class="flex1"> <!--saliek blakus kastes-->            
+            <div class="col">            
+                <button class="nosaukumi" id="bnos1">id</button>
+                <input class="dati" type="text" id="inos1" name="id" ><br>
+                <button class="nosaukumi" id="bnos2">inventāraNr</button>
+                <input class="dati" type="text" id="inos2" name="inventaraNR" ><br>
+                <button class="nosaukumi" id="bnos3">nosaukums</button>
+                <input class="dati" type="text" id=inos3 name="nosaukums" ><br>
+                <button class="nosaukumi" id="bnos4">iegādes gads</button>
+                <input class="dati" type="text" id=inos4 name="iegadesGads" ><br>
+                <button class="nosaukumi" id="bnos5">piegādātājs</button>
+                <input class="dati" type="text" id=inos5 name="piegadatajs" ><br> 
+                <button class="nosaukumi" id="bnos6">ražotājs</button>
+                <input class="dati" type="text" id=inos6 name="razotajs"><br> 
+            </div>
+            <div class="col">            
+                <button class="nosaukumi" id="bnos7">kabineta nr.</button>
+                <input class="dati" type="text" id=inos7 name="name" ><br>
+                <button class="nosaukumi" id="bnos8">atbildīgais</button>
+                <input class="dati" type="text" id="inos8" name="atbildigais" ><br>
+                <button class="nosaukumi" id="bnos9">procesors</button>
+                <input class="dati" type="text" id=inos9 name="procesors" ><br>
+                <button class="nosaukumi" id="bnos10">ram</button>
+                <input class="dati" type="text" id=inos10 name="ram" ><br>
+                <button class="nosaukumi" id="bnos11">hdd</button>
+                <input class="dati" type="text" id=inos11 name="hdd" ><br> 
+                <button class="nosaukumi" id="bnos12">programmatūra</button>
+                <input class="dati" type="text" id=inos12 name="programmatura"><br> 
+            </div>
+        </div>
+        <hr>     
+            <button class=button1 type="submit">Saglabāt</button> 
+        
 
  
     <!-- -->
