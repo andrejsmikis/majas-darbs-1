@@ -31,8 +31,8 @@ function nomainiLaukus() {
         document.querySelector("#inos11").name="papiraIzmers";
         document.getElementById("bnos12").textContent = "toneris";
         document.querySelector("#inos12").name="toneris";
-        let tests=document.querySelector("#inos12").name;
-        document.getElementById("bnos13").textContent = tests;
+        //let tests=document.querySelector("#inos12").name;
+        //document.getElementById("bnos13").textContent = tests;
         break;
     }
     }
