@@ -2,28 +2,24 @@ async function pievieno_tehniku()
 {
 
 let requestBodyJson = {
-             // "apakstips": document.querySelector('#apakstips').value,
-             // "daudzums": parseInt(document.querySelector('#daudzums').value),
-             // "komentari": document.querySelector('#komentari').value,
-             // "mervienibas": document.querySelector('#mervienibas').value,
-             // "nosaukums": document.querySelector('#nosaukums').value,
-             // "skaits": parseInt(document.querySelector('#skaits').value),
-             // "tips": document.querySelector('#tips').value
-             "tips": "dators ",
-             "inventaraNr": "1239-540",
-             "name": "201",
-             "iegadesGads": "2018",
-             "piegadatajs": "Sia Dators",
-             "razotajs" : "HP",
-             "procesors": "i7 ",
-             "ram": "8GB",
-             "cietaisDisks": "ssd 250GB",
-             "os": "win10"
+             // "skaits": parseInt(document.querySelector('#skaits').value),            
+             "tips": document.querySelector('#tehnika').value,
+             "inventaraNr": document.querySelector("input[name='inventaraNr']").value,
+             "nosaukums": document.querySelector("input[name='nosaukums']").value,
+             "iegadesGads": document.querySelector("input[name='iegadesGads']").value,
+             "piegadatajs": document.querySelector("input[name='piegadatajs']").value,
+             "razotajs" : document.querySelector("input[name='razotajs']").value,
+             "kabinetaNr" : document.querySelector("input[name='kabinetaNr']").value,
+             "atbildigais" : document.querySelector("input[name='atbildigais']").value,
+             "procesors": document.querySelector("input[name='procesors']").value,
+             "ram": document.querySelector("input[name='ram']").value,
+             "cietaisDisks": document.querySelector("input[name='cietaisDisks']").value,
+             "programmatura": document.querySelector("input[name='programmatura']").value
               };
 let requestBodyString = JSON.stringify(requestBodyJson);
 
 
-let request = await fetch('https://pytonc.eu.pythonanywhere.com/api/v1/viela',
+let request = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json',
          		{
             method:"POST",
   					headers:

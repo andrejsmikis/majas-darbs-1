@@ -27,13 +27,13 @@ async function klasesTehnikaf() {
     for(let j=0;j<kabinetuSkaits;j++){
         irProjektors='-';
         irSkandas='-';
-        kabinetaNr=roomJson.dati[j]['name'];
+        kabinetaNr=roomJson.dati[j]['kabinetaNr'];
         datoruSkaits=0;
         projektoruSkaits=0;
         skanduSkaits=0;
         
     for(let i=0;i<garums;i++){
-       telpa=pcJson.dati[i]['name'];
+       telpa=pcJson.dati[i]['kabinetaNr'];
         tips=pcJson.dati[i]['tips'];
        if(telpa==kabinetaNr && tips=="dators ")
                {
