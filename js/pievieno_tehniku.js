@@ -31,9 +31,10 @@ async function pievieno_tehniku()
 //        		});
 
 //let atbilde = await request.json();
-let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json')
-let pcJson = await datoruDB.json();
-console.log(pcJson);
+//let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json')
+//let pcJson = await datoruDB.json();
+let tips=document.querySelector('#tehnika').value;
+console.log(tips);
 
 
 }
