@@ -24,7 +24,7 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb
             method:"POST",
   					headers:
   					{
-            'X-API-KEY': 'abce',
+            'X-API-KEY': 'abcd',
             'Content-Type': 'application/json'
             },
             body:requestBodyString
