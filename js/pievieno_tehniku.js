@@ -3,7 +3,7 @@ async function pievieno_tehniku()
 
 let requestBodyJson = {
              // "skaits": parseInt(document.querySelector('#skaits').value),            
-             "tips": document.querySelector('#tehnika').value,
+             //"tips": document.querySelector('#tehnika').value,
              "inventaraNr": document.querySelector("input[name='inventaraNr']").value,
              "nosaukums": document.querySelector("input[name='nosaukums']").value,
              "iegadesGads": document.querySelector("input[name='iegadesGads']").value,
