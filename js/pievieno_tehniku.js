@@ -31,11 +31,7 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
         		});
 
 let atbilde = await request.json();
-//let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json')
-//let pcJson = await datoruDB.json();
 
-//let x=document.getElementsById('inos3').value;
-//let y =document.getElementById('inos3').value;
 
 console.log(atbilde);
 
