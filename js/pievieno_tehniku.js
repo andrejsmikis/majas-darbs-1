@@ -1,40 +1,43 @@
 async function pievieno_tehniku()
 {
 
-//let requestBodyJson = {
+let requestBodyJson = {
              // "skaits": parseInt(document.querySelector('#skaits').value),            
-             //"tips": document.querySelector('#tehnika').value 
-             //"inventaraNr": document.querySelector("input[name='inventaraNr']").value,
-             //"nosaukums": document.querySelector("input[name='nosaukums']").value,
-             //"iegadesGads": document.querySelector("input[name='iegadesGads']").value,
-             //"piegadatajs": document.querySelector("input[name='piegadatajs']").value,
-             //"razotajs" : document.querySelector("input[name='razotajs']").value,
-             //"kabinetaNr" : document.querySelector("input[name='kabinetaNr']").value,
-             //"atbildigais" : document.querySelector("input[name='atbildigais']").value,
-             //"procesors": document.querySelector("input[name='procesors']").value,
-             //"ram": document.querySelector("input[name='ram']").value,
-             ///"cietaisDisks": document.querySelector("input[name='cietaisDisks']").value,
-             //"programmatura": document.querySelector("input[name='programmatura']").value
-//              };
-//let requestBodyString = JSON.stringify(requestBodyJson);
+             "tips": document.querySelector('#tehnika').value, 
+             "inventaraNr": document.querySelector('#inos2').value,
+             "nosaukums": document.querySelector('#inos3').value,
+             "iegadesGads": document.querySelector('#inos4').value,
+             "piegadatajs": document.querySelector('#inos5').value,
+             "razotajs" : document.querySelector('#inos6').value,
+             "kabinetaNr" : document.querySelector('#inos7').value,
+             "atbildigais" : document.querySelector('#inos8').value,
+             "procesors": document.querySelector('#inos9').value,
+             "ram": document.querySelector('#inos10').value,
+             "cietaisDisks": document.querySelector('#inos11').value,
+             "programmatura": document.querySelector('#inos12').value
+              };
+let requestBodyString = JSON.stringify(requestBodyJson);
 
 
-//let request = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json',
-//         		{
-//            method:"POST",
-//  					headers:
-//  					{
-//            'X-API-KEY': 'abcd',
-//            'Content-Type': 'application/json'
-//            },
-//            body:requestBodyString
-//        		});
+let request = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json',
+         		{
+            method:"POST",
+  					headers:
+  					{
+            'X-API-KEY': 'abcd',
+            'Content-Type': 'application/json'
+            },
+            body:requestBodyString
+        		});
 
-//let atbilde = await request.json();
+let atbilde = await request.json();
 //let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json')
 //let pcJson = await datoruDB.json();
-let tips=document.querySelector('#tehnika').value;
-console.log(tips);
+
+//let x=document.getElementsById('inos3').value;
+//let y =document.getElementById('inos3').value;
+
+console.log(atbilde);
 
 
 }
