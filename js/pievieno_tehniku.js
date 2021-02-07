@@ -19,14 +19,14 @@ let requestBodyJson = {
 let requestBodyString = JSON.stringify(requestBodyJson);
 
 
-let request = await fetch('https://andrejstehnika.amikis.repl.co/static/datorudb.json',
+let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
          		{
             method:"POST",
-  					headers:
-  					{
-            'X-API-KEY': 'abcd',
-            'Content-Type': 'application/json'
-            },
+  					//headers:
+  					//{
+            //'X-API-KEY': 'abcd',
+            //'Content-Type': 'application/json'
+            //},
             body:requestBodyString
         		});
 
