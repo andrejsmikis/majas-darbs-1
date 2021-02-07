@@ -22,11 +22,11 @@ let requestBodyString = JSON.stringify(requestBodyJson);
 let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
          		{
             method:"POST",
-  					//headers:
-  					//{
+  					headers:
+  					{
             //'X-API-KEY': 'abcd',
-            //'Content-Type': 'application/json'
-            //},
+            'Content-Type': 'application/json'
+            },
             body:requestBodyString
         		});
 
