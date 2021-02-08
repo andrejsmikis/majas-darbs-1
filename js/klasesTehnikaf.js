@@ -10,7 +10,7 @@ async function klasesTehnikaf() {
     let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/api/tehnika')
     let pcJson = await datoruDB.json();
     let kabinetuSkaits=roomJson.dati.length;   
-    let garums=pcJson.length;
+    let garums=pcJson.dati.length;
     vajagSkandas=document.getElementById("skandas").checked;
     vajagDatoru=document.getElementById("datori").checked;
     vajagProjektoru=document.getElementById("projektors").checked;
