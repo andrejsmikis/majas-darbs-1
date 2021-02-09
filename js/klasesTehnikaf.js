@@ -35,15 +35,15 @@ async function klasesTehnikaf() {
     for(let i=0;i<garums;i++){
        telpa=pcJson.dati[i]['kabinetaNr'];
         tips=pcJson.dati[i]['tips'];
-       if(telpa==kabinetaNr && tips=="dators ")
+       if(telpa==kabinetaNr && tips=="dators")
                {
             datoruSkaits++;
         }
-        if(telpa==kabinetaNr && tips=="projektors ")
+        if(telpa==kabinetaNr && tips=="projektors")
             {
             projektoruSkaits++;
         }
-        if(telpa==kabinetaNr && tips=="skandas ")
+        if(telpa==kabinetaNr && tips=="skandas")
             {
         skanduSkaits++;
         }  
