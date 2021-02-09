@@ -30,10 +30,10 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
             body:requestBodyString
         		});
 
-//let atbilde = await request.json();
+let atbilde = await request.json();
 
 
-//console.log(atbilde);
+console.log(atbilde);
 
 
 }
