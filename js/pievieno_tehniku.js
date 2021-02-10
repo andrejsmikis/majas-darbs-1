@@ -1,9 +1,10 @@
 async function pievieno_tehniku()
 {
+let requestBodyJson  
 let tehnikasIzvele=document.querySelector('#tehnika').value;
 switch (true){
   case tehnikasIzvele == "dators"  :
-    let requestBodyJson = {
+    requestBodyJson = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
@@ -21,7 +22,7 @@ switch (true){
       let izv="dators";
   break;
   case tehnikasIzvele == "monitors"  :
-    let requestBodyJson = {
+    requestBodyJson = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
@@ -39,7 +40,7 @@ switch (true){
       let izv="monitors";
   break;
   case tehnikasIzvele == "printeris"  :
-    let requestBodyJson = {
+    requestBodyJson = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
