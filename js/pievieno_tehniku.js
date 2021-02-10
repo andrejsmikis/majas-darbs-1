@@ -18,6 +18,7 @@ switch (true){
       "cietaisDisks": document.querySelector('#inos11').value,              
       "programmatura": document.querySelector('#inos12').value                 
       }
+      let izv="dators";
   break;
   case tehnikasIzvele == "monitors"  :
     let requestBodyJson = {
@@ -33,8 +34,9 @@ switch (true){
       "procesors": document.querySelector('#inos9').value,
       "ram": document.querySelector('#inos10').value,
       "cietaisDisks": document.querySelector('#inos11').value,              
-      "programmatura": document.querySelector('#inos13').value                 
+      "izmers": document.querySelector('#inos13').value                 
       }
+      let izv="monitors";
   break;
   case tehnikasIzvele == "printeris"  :
     let requestBodyJson = {
@@ -50,10 +52,12 @@ switch (true){
       "procesors": document.querySelector('#inos9').value,
       "ram": document.querySelector('#inos10').value,
       "cietaisDisks": document.querySelector('#inos11').value,              
-      "programmatura": document.querySelector('#inos14').value                 
+      "printeraTips": document.querySelector('#inos14').value                 
       }
+      let izv="printeris";
   break;
-} 
+}
+console.log(izv); 
                                  
               
             
