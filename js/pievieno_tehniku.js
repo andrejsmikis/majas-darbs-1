@@ -1,10 +1,10 @@
 async function pievieno_tehniku()
 {
-let requestBodyJson  
+let requestBodyString  
 let tehnikasIzvele=document.querySelector('#tehnika').value;
 switch (true){
   case tehnikasIzvele == "dators"  :
-    requestBodyJson = {
+    requestBodyString = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
