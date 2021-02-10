@@ -1,7 +1,6 @@
 async function pievieno_tehniku()
 {
-let requestBodyJson;
-let izv;  
+let requestBodyJson; 
 let tehnikasIzvele=document.querySelector('#tehnika').value;
 switch (true){
   case tehnikasIzvele == "dators"  :
@@ -19,12 +18,10 @@ switch (true){
       "ram": document.querySelector('#inos10').value,
       "cietaisDisks": document.querySelector('#inos11').value,              
       "programmatura": document.querySelector('#inos12').value                 
-      }
-      izv="dators";
+      }      
   break;
   case tehnikasIzvele == "monitors"  :
-    requestBodyJson = {
-      // "skaits": parseInt(document.querySelector('#skaits').value),            
+    requestBodyJson = {                  
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
       "nosaukums": document.querySelector('#inos3').value,
@@ -37,12 +34,10 @@ switch (true){
       "ram": document.querySelector('#inos10').value,
       "cietaisDisks": document.querySelector('#inos11').value,              
       "izmers": document.querySelector('#inos13').value                 
-      }
-      izv="monitors";
+      }      
   break;
   case tehnikasIzvele == "printeris"  :
-    requestBodyJson = {
-      // "skaits": parseInt(document.querySelector('#skaits').value),            
+    requestBodyJson = {                  
       "tips": document.querySelector('#tehnika').value, 
       "inventaraNr": document.querySelector('#inos2').value,
       "nosaukums": document.querySelector('#inos3').value,
@@ -55,11 +50,10 @@ switch (true){
       "ram": document.querySelector('#inos10').value,
       "cietaisDisks": document.querySelector('#inos11').value,              
       "printeraTips": document.querySelector('#inos14').value                 
-      }
-      izv="printeris";
+      }      
   break;
 }
-console.log(izv); 
+ 
                                  
               
             
