@@ -14,7 +14,7 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/'+nid+'/dze
 
 //console.log(await request.json());
 
-
+let atbilde;
 console.log(await atbilde);
 //console.log (nid);
 
