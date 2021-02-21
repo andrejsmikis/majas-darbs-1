@@ -6,7 +6,7 @@ async function norakstit_tehniku()
 let request = await fetch('https://andrejstehnika.amikis.repl.co/api/',
     {
     method:"POST",
-    body: {'id':nid}
+    body: JSON.stringify({'id':nid}),
 	headers: {
         //'X-API-KEY': 'abcd',
         'Content-Type': 'application/json'
