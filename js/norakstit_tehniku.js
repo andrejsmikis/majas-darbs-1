@@ -6,7 +6,7 @@ console.log (nid);
 let request = await fetch('https://andrejstehnika.amikis.repl.co/api/',
     {
     method:"POST",
-    body: {id:12}
+    body: {id:12},
 	headers: {
         //'X-API-KEY': 'abcd',
         'Content-Type': 'application/json'
