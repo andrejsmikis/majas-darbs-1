@@ -10,7 +10,12 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/delete',
 	headers: {
         //'X-API-KEY': 'abcd',
         'Content-Type': 'application/json'
-    }});
+    }}).then(response => response.json())
+    .then(data => {
+        if(data.status !== 1) {
+            alert("Kļūda")
+        }
+    })
 
 //console.log(await request.json());
 
