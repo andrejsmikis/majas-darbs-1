@@ -3,14 +3,13 @@ async function norakstit_tehniku()
     let nid=document.querySelector('#inos1').value;
 //    let tehnikasIzvele=document.querySelector('#tehnika').value;
 console.log (nid);
-let request = await fetch('https://andrejstehnika.amikis.repl.co/api/'+nid+'/dzest',
+let request = await fetch('https://andrejstehnika.amikis.repl.co/api/'+nid,
     {
-    method:"POST",
-	headers:
-        {
+    method:"DELETE",
+	headers: {
         //'X-API-KEY': 'abcd',
-        //'Content-Type': 'application/json'
-         }});
+        'Content-Type': 'application/json'
+    }});
 
 //console.log(await request.json());
 
