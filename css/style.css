@@ -249,5 +249,8 @@ button {
     text-decoration: none;
     text-align: center;
 }
+.neradit{
+    display: none;
+  }
 
 /*Andrejs stili beidzas*/
