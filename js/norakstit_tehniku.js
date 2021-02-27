@@ -3,7 +3,7 @@ async function norakstit_tehniku()
     let nid=document.querySelector('#inos1').value;
 //    let tehnikasIzvele=document.querySelector('#tehnika').value;
 
-let request = await fetch('https://andrejstehnika.amikis.repl.co/api/delete',
+let request = await fetch('https://andrejstehnika.amikis.repl.co/api/norakstit',
     {
     method:"POST",
     body: JSON.stringify({'id':nid}),
