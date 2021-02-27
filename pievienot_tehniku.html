@@ -15,6 +15,9 @@
         head("Jaunas tehnikas ievade","visas_tehnikas_db.html");
     </script>
     <!-- -->
+    <script>
+        nomainiLaukus();
+    </script>
 
         <!--Izvēlēties ievadāmo tehniku:-->
         <div class="flex">
@@ -26,6 +29,9 @@
                     <option value="dators">dators</option>
                     <option value="monitors">monitors</option>
                     <option value="printeris">printeris</option>
+                    <option value="projektors">projektors</option>
+                    <option value="kopetajs">kopētājs</option>
+                    <option value="skandas">skandas</option>
                 </select>
             </div>
         </div>
@@ -41,31 +47,49 @@
                 <button class="nosaukumi" id="bnos2">inventāraNr</button>
                 <input class="dati" type="text" id="inos2" name="inventaraNR" ><br>
                 <button class="nosaukumi" id="bnos3">nosaukums</button>
-                <input class="dati" type="text" id=inos3 name="nosaukums" ><br>
+                <input class="dati" type="text" id="inos3" name="nosaukums" ><br>
                 <button class="nosaukumi" id="bnos4">iegādes gads</button>
-                <input class="dati" type="text" id=inos4 name="iegadesGads" ><br>
+                <input class="dati" type="text" id="inos4" name="iegadesGads" ><br>
                 <button class="nosaukumi" id="bnos5">piegādātājs</button>
-                <input class="dati" type="text" id=inos5 name="piegadatajs" ><br> 
+                <input class="dati" type="text" id="inos5" name="piegadatajs" ><br> 
                 <button class="nosaukumi" id="bnos6">ražotājs</button>
-                <input class="dati" type="text" id=inos6 name="razotajs"><br> 
+                <input class="dati" type="text" id="inos6" name="razotajs"><br> 
             </div>
             <div class="col">            
                 <button class="nosaukumi" id="bnos7">kabineta nr.</button>
-                <input class="dati" type="text" id=inos7 name="kabinetaNr" ><br>
+                <input class="dati" type="text" id="inos7" name="kabinetaNr" ><br>
                 <button class="nosaukumi" id="bnos8">atbildīgais</button>
                 <input class="dati" type="text" id="inos8" name="atbildigais" ><br>
-                <button class="nosaukumi" id="bnos9">procesors</button>
-                <input class="dati" type="text" id=inos9 name="procesors" ><br>
-                <button class="nosaukumi" id="bnos10">ram</button>
-                <input class="dati" type="text" id=inos10 name="ram" ><br>
-                <button class="nosaukumi" id="bnos11">cietais Disks</button>
-                <input class="dati" type="text" id=inos11 name="cietaisDisks" ><br> 
-                <button class="nosaukumi" id="bnos12">programmatūra</button>
-                <input class="dati" type="text" id=inos12 name="programmatura"><br>
-                <button class="nosaukumi" id="bnos13">izmērs</button>
-                <input class="dati" type="text" id=inos13 name="izmers"><br>
-                <button class="nosaukumi" id="bnos14">tips-N,D,C</button>
-                <input class="dati" type="text" id=inos14 name="printeraTips"><br>  
+                <div id=dators >
+                    <button class="nosaukumi" id="bnos9">procesors</button>
+                    <input class="dati" type="text" id="inos9" name="procesors" ><br>
+                    <button class="nosaukumi" id="bnos10">ram</button>
+                    <input class="dati" type="text" id="inos10" name="ram" ><br>
+                    <button class="nosaukumi" id="bnos11">cietais Disks</button>
+                    <input class="dati" type="text" id="inos11" name="cietaisDisks" ><br> 
+                    <button class="nosaukumi" id="bnos12">programmatūra</button>
+                    <input class="dati" type="text" id="inos12" name="programmatura"><br>
+                </div>
+                <div id=printeris class="neradit">
+                    <button class="nosaukumi" id="bnos13">tips-N,D,C</button>
+                    <input class="dati" type="text" id="inos13" name="tips"><br>
+                    <button class="nosaukumi" id="bnos14">izmērs</button>
+                    <input class="dati" type="text" id="inos14" name="izmers"><br>
+                    <button class="nosaukumi" id="bnos15">kārtridži</button>
+                    <input class="dati" type="text" id="inos15" name="kartridzi"><br>
+                    <button class="nosaukumi" id="bnos16">adrese</button>
+                    <input class="dati" type="text" id="inos16" name="adrese"><br>
+                </div>
+                <div id=monitors class="neradit">
+                    <button class="nosaukumi" id="bnos17">m_izmērs</button>
+                    <input class="dati" type="text" id="inos17" name="m_izmers"><br>
+                    <button class="nosaukumi" id="bnos18">m_tips</button>
+                    <input class="dati" type="text" id="inos18" name="m_tips"><br>
+                    <button class="nosaukumi" id="bnos19">interfeisi</button>
+                    <input class="dati" type="text" id="inos19" name="interfeisi"><br>
+                    <button class="nosaukumi" id="bnos20">audio</button>
+                    <input class="dati" type="text" id="inos20" name="audio"><br>
+                </div>
             </div>
         </div>
         <hr>     
