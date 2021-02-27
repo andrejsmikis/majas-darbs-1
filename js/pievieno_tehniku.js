@@ -4,10 +4,6 @@ let requestBodyJson;
 let tehnikasIzvele=document.querySelector('#tehnika').value;
 switch (true){
   case tehnikasIzvele == "dators"  :
-    document.getElementById("bnos13").className = "neradit";
-    document.getElementById("inos13").className = "neradit";
-    document.getElementById("bnos14").className = "neradit";
-    document.getElementById("inos14").className = "neradit";
     requestBodyJson = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
@@ -56,15 +52,9 @@ switch (true){
       "printeraTips": document.querySelector('#inos14').value                 
       }      
   break;
-}
- 
-                                 
-              
+}                            
             
-             
-              
 let requestBodyString = JSON.stringify(requestBodyJson);
-
 
 let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
          		{
