@@ -19,7 +19,7 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/norakstit',
             alert("Nav atrasts ID")
         }
         if(data.status == 1) {
-            alert("Norakstīts ID="+nid)
+            alert("ID "+nid+" norakstīts")
         }
     })
 
