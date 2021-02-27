@@ -12,11 +12,14 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/norakstit',
         'Content-Type': 'application/json'
     }}).then(response => response.json())
     .then(data => {
-        if(data.status !== 1) {
+        if(data.status == 0) {
             alert("Kļūda")
         }
         if(data.status == 2) {
             alert("Nav atrasts ID")
+        }
+        if(data.status == 1) {
+            alert("Norakstīts")
         }
     })
 
