@@ -15,6 +15,9 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/norakstit',
         if(data.status !== 1) {
             alert("Kļūda")
         }
+        if(data.status == 2) {
+            alert("Nav atrasts ID")
+        }
     })
 
 //console.log(await request.json());
