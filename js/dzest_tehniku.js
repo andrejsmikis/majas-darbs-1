@@ -22,3 +22,4 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/delete',
             alert("ID "+nid+" izdzēsts")
         }
     })
+}
