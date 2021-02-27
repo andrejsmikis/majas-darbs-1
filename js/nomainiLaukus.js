@@ -9,16 +9,16 @@ function nomainiLaukus() {
         break;
         case 'monitors':
             document.querySelector("#dators").className = "neradit";
-            document.querySelector("#printeris").className = "radit";
-            document.querySelector("#monitors").className = "neradit";
+            document.querySelector("#printeris").className = "neradit";
+            document.querySelector("#monitors").className = "radit";
         break;
         case 'printeris':
             document.querySelector("#dators").className = "neradit";
-            document.querySelector("#printeris").className = "neradit";
-            document.querySelector("#monitors").className = "radit";
-        //let tests=document.querySelector("#inos12").name;
-        //document.getElementById("bnos13").textContent = tests;
+            document.querySelector("#printeris").className = "radit";
+            document.querySelector("#monitors").className = "neradit";
         break;
+        //document.getElementById("bnos13").textContent = tests;
+        
     }
     }
 
