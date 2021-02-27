@@ -4,10 +4,10 @@ let requestBodyJson;
 let tehnikasIzvele=document.querySelector('#tehnika').value;
 switch (true){
   case tehnikasIzvele == "dators"  :
-    document.getElementById("bnos13").classList.add('neradit');
-    document.getElementById("inos13").classList.add('neradit');
-    document.getElementById("bnos14").classList.add('neradit');
-    document.getElementById("inos14").classList.add('neradit');
+    document.getElementById("bnos13").className = "neradit";
+    document.getElementById("inos13").className = "neradit";
+    document.getElementById("bnos14").className = "neradit";
+    document.getElementById("inos14").className = "neradit";
     requestBodyJson = {
       // "skaits": parseInt(document.querySelector('#skaits').value),            
       "tips": document.querySelector('#tehnika').value, 
