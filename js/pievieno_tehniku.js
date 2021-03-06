@@ -30,10 +30,10 @@ switch (true){
       "razotajs" : document.querySelector('#inos6').value,
       "kabinetaNr" : document.querySelector('#inos7').value,
       "atbildigais" : document.querySelector('#inos8').value,
-      "procesors": document.querySelector('#inos9').value,
-      "ram": document.querySelector('#inos10').value,
-      "cietaisDisks": document.querySelector('#inos11').value,              
-      "izmers": document.querySelector('#inos13').value                 
+      "procesors": document.querySelector('#inos17').value,
+      "ram": document.querySelector('#inos18').value,
+      "cietaisDisks": document.querySelector('#inos19').value,              
+      "izmers": document.querySelector('#inos20').value                 
       }      
   break;
   case tehnikasIzvele == "printeris"  :
@@ -46,10 +46,10 @@ switch (true){
       "razotajs" : document.querySelector('#inos6').value,
       "kabinetaNr" : document.querySelector('#inos7').value,
       "atbildigais" : document.querySelector('#inos8').value,
-      "procesors": document.querySelector('#inos9').value,
-      "ram": document.querySelector('#inos10').value,
-      "cietaisDisks": document.querySelector('#inos11').value,              
-      "printeraTips": document.querySelector('#inos14').value                 
+      "procesors": document.querySelector('#inos13').value,
+      "ram": document.querySelector('#inos14').value,
+      "cietaisDisks": document.querySelector('#inos15').value,              
+      "printeraTips": document.querySelector('#inos16').value                 
       }      
   break;
 }                            
