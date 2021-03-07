@@ -65,6 +65,10 @@ async function klasesTehnikaf() {
         {
         irKopetajs='&#x2713';
     }
+    if (skanduSkaits>0)
+        {
+        irSkandas='&#x2713';
+    }
     let rinda = document.querySelector('.rinda');
     switch (true){
         case atlasesNr == kabinetaNr  :
