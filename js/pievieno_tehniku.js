@@ -122,13 +122,7 @@ let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
                     alert("ieraksts pievienots")
                 }
             })
-
-//console.log(await request.json());
 location.reload();
-
-//console.log(atbilde);
-
-
 }
 
 
