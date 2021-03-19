@@ -104,7 +104,7 @@ switch (true){
             
 let requestBodyString = JSON.stringify(requestBodyJson);
 
-let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot',
+let request = await fetch('https://andrejstehnika.amikis.repl.co/api/pievienot_db',
          		{
             method:"POST",
   					headers:
