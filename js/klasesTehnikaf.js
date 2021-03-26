@@ -7,7 +7,7 @@ async function klasesTehnikaf() {
     //let datoruDB =fetch('https://armandspucs.github.io/majas-darbs-1/data/datoruDB.json')
     let roomDB = await fetch('https://andrejstehnika.amikis.repl.co/api/kabineti')
     let roomJson = await roomDB.json();
-    let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/api/tehnika')
+    let datoruDB = await fetch('https://andrejstehnika.amikis.repl.co/api/tehnika_db')
     let pcJson = await datoruDB.json();
     let kabinetuSkaits=roomJson.dati.length;   
     let garums=pcJson.dati.length;
