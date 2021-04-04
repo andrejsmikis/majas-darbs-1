@@ -1,7 +1,7 @@
 async function dzest_tehniku()
 {
     let nid=document.querySelector('#inos1').value;
-//    let tehnikasIzvele=document.querySelector('#tehnika').value;
+//  darbojas uz TIKAI json
 
 let request = await fetch('https://andrejstehnika.amikis.repl.co/api/delete',
     {

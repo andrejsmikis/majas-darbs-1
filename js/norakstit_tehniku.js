@@ -1,5 +1,6 @@
 async function norakstit_tehniku()
 {
+    //darbojas tikai uz json
     let nid=document.querySelector('#inos1').value;
 
 
